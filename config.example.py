@@ -12,10 +12,10 @@ SECRETKEY = "A71234567890abcdefedcba098765432"
 
 # 控制功能开关
 # 是否进行上传证书文件的操作（根据CER_FILE和KEY_FILE）
-UPLOAD_SSL = True
+UPLOAD_SSL = False
 # 是否进行为CDN_DOMAIN更换SSL证书的操作
 # 若UPDATE_SSL = True且UPLOAD_SSL = True，则CERT_ID可不设置，直接利用UPLOAD_SSL的证书
-UPDATE_SSL = True
+UPDATE_SSL = False
 CERT_ID = ""
 # 是否进行预热URL的操作
 PUSH_URL = True
